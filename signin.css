@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100%;
+  margin: 0;
+  color: #000;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* Logo */
+.logo {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+
+}
+
+.logo img {
+  height: 139px;
+  margin-top: -21px;
+}
+
+/* Main Container */
+.container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form */
+.form {
+  width: 350px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 20px 26px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: -63px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.enter-mail {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  background-color: #f7ca00;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d6a800;
+}
+
+.condition {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+details {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+summary {
+  font-size: 13px;
+}
+
+.s-fix {
+  margin-left: 13px;
+  margin-top: 8px;
+}
+
+.b1 {
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.b2 {
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: chocolate;
+}
+
+/* Divider */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 26%;
+  margin: 20px 0;
+  text-align: center;
+  margin-left: 501px;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: #e7dfdf;
+  margin: 0 10px;
+}
+
+.divider span {
+  color: #948b8b;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.signin-btn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.signin-btn button {
+  width: 328px;
+  margin-bottom: 10px;
+  height: 29px;
+  background: white;
+  border: 1px solid #dfdcdc;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: -30px;
+}
+
+
+.signin-btn button:hover {
+  background-color: #f0f0f0;
+}
+
+
+.footer {
+ 
+  width: 100%;
+  height: 140px;
+  background: #f0ecec;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  color: #000;
+  
+}
+
+.footer .row {
+
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.footer .row .col {
+  padding: 5px;
+}
+
+.footer a {
+  color: rgb(33, 118, 197);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: rgb(168, 84, 44)
+}
+
+.copy-right {
+  margin-top: -16px;
+  margin-bottom: 40px;
+  color: #807c7c
+}
